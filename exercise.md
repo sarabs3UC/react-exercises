@@ -21,6 +21,7 @@
 ```
 
 ### Output
+```
 {
     5: {
         id: 5,
@@ -38,5 +39,6 @@
         Skills: 'Javascript'
     }
 }
+```
 
 Id should be Key.
