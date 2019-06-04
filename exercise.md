@@ -1,24 +1,42 @@
 
-## Exercise 2
+## Exercise 4 (Create an object from array using reduce function)
 
-###Create a file 1.js
-Which will export a variable name count and value will be 1
+### Input
+```
+[{
+    id: 5,
+    name: 'User 1',
+    Skills: 'React JS'
+},
+{
+    id: 8,
+    name: 'User 2',
+    Skills: 'CSS'
+},
+{
+    id: 11,
+    name: 'User 3',
+    Skills: 'Javascript'
+}]
+```
 
-### Create a file 2.js
-Which will import count variable from 1.js and add 2 in that
-and export this variable.
+### Output
+{
+    5: {
+        id: 5,
+        name: 'User 1',
+        Skills: 'React JS'
+    },
+    8: {
+         id: 8,
+        name: 'User 2',
+        Skills: 'CSS'
+    },
+    11: {
+        id: 11,
+        name: 'User 3',
+        Skills: 'Javascript'
+    }
+}
 
-### Create a file 3.js
-Import count variable from 2.js
-Multiple count with 5
-Export the count variable
-
-### Create a file 4.js
-Import count variable from 3.js
-Add 5 into the count varible
-Export count variable
-
-### Create a file 5.js
-Import count from 2.js and 4.js
-console.log both values
-Result should be 3 and 20
+Id should be Key.
